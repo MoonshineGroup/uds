@@ -37,7 +37,7 @@ ELSE()
     MESSAGE(STATUS "The compiler ${CMAKE_CXX_COMPILER} has no C++11 support. Please use a different C++ compiler.")
 ENDIF()
 
-SET(PROJECT_REFERENCES_ROOT /home/ubuntu/build)
+SET(PROJECT_REFERENCES_ROOT /usr/lib )
 
 INCLUDE_DIRECTORIES(
     ${PROJECT_SOURCE_DIR}
